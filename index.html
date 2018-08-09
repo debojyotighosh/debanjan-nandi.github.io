@@ -22,6 +22,11 @@
 		    border-style: inset;
 		    border-width: 3px;
 		}
+			@media (max-width: 420px) {
+				#Content {
+					height: 200px;
+				}
+			}
     	</style>
     	<link href="./bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
 
@@ -30,6 +35,7 @@
 	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="./bootstrap/ico/apple-touch-icon-114-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="./bootstrap/ico/apple-touch-icon-72-precomposed.png">
 	<link rel="apple-touch-icon-precomposed" href="./bootstrap/ico/apple-touch-icon-57-precomposed.png">
+	<meta name="viewport" content="width=device-width; initial-scale=1">
 </head>
 <body style="overflow:hidden;">
 
@@ -55,7 +61,6 @@
 	      	</div>
 	</div>
 	<div id="Content">
-	<br>
 	<table width="100%" height="95%" style="font-size: 13.5px;">
 		<td width="20%" align="middle" valign="top">
 			<div>
@@ -68,8 +73,9 @@
 			Contact: <br> <a href = "mailto:debanjan.com@gmail.com" target="_blank">debanjan(dot)com@gmail(dot)com</a>
 			<br><a href = "mailto:nandi.20@osu.edu" target="_blank">nandi(dot)20@osu(dot)edu</a>
 		</td>
-		<td>
-			<div style="overflow:auto; position:absolute; top: 10%; left: 24%; right:10px; bottom: 5%;">
+		<td style="position: relative">
+			<div style="overflow:auto; position:absolute; top: 0; left: 0; right:10px; bottom: 5%;">
+			<!-- <div style="overflow:auto; position:absolute; top: 10%; left: 24%; right:10px; bottom: 5%;"> -->
 			<div class="well">
 			<br>
 			<h3>OVERVIEW</h3><br>
